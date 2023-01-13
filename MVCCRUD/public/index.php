@@ -6,8 +6,8 @@
     include("../include/head.php");
     ?>
 </head>
-<body>
-    <div class="d-flex justify-content-between mt-3 mb-4 ms-2">
+<body class="m-4">
+    <div class="d-flex justify-content-between mt-3 mb-5 pb-4 ms-2">
         <div class="fs-2">
             <span class="me-2"><i class="bi bi-folder-plus"></i></span>
             <span>Jokes</span>
