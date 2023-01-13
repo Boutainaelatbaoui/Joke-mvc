@@ -13,7 +13,7 @@
             <span>Jokes</span>
         </div>
         <!-- <a href="#modal-joke" data-bs-toggle="modal" class="btn btn-warning me-4 mt-2"><i class="bi bi-plus-circle me-2"></i> Add Jokes</a> -->
-        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-joke">
+        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-joke" onclick="addJoke()">
             <i class="bi bi-plus-circle me-2"></i> Add Jokes
         </button>
     </div> 
@@ -41,5 +41,6 @@
             });
         });
     </script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>

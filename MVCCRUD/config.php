@@ -5,7 +5,7 @@ class Connection
       private $serv = 'localhost';
       private $user = 'root';
       private $pass = '';
-      private $bd = 'youtrain';
+      private $bd = 'joke';
 
 
       private function pdoConnection()
