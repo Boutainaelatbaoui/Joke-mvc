@@ -8,7 +8,7 @@
 					</div>
 					<div class="modal-body">
 							<!-- This Input Allows Storing Task Index  -->
-							<input  type="hidden" name="joke-id" id="joke-id">
+							<input  type="hidden" name="id" id="joke-id">
 							<div class="mb-3">
 								<label class="form-label">Text</label>
 								<input type="text" class="form-control" name="text" id="joke-text"/>
@@ -22,3 +22,4 @@
 			</div>
 		</div>
 </div>
+<script src="../assets/js/main.js"></script>

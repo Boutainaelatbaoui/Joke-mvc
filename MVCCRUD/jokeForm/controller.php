@@ -10,6 +10,8 @@ if (isset($_POST['save'])) {
 
 if (isset($_POST['update'])) {
     extract($_POST);
+    // var_dump($id);
+    // die;
     $joke = new JokeForm($text, $id);
     $joke->updateJoke();
     header('location: ../public/index.php');

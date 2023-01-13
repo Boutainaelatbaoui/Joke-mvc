@@ -24,6 +24,8 @@ class JokeForm extends Connection
         $sql = "UPDATE `jokes` SET `text`= ? WHERE id = ?";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$this->text, $this->id]);
+        // var_dump($stmt);
+        // die;
     }
 
 }
